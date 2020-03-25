@@ -19,9 +19,8 @@ import { getValueDomSetter, clickListener} from './counterView';
         console.log(err);
       }
   };
-  let vvv = await clickListener(setNewNumberOnServer);
   
-  // clickListener(setNewNumberOnServer);
+  clickListener(setNewNumberOnServer);
 })()
 
 // (async () => {
